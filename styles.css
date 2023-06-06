@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 500px;
+    background-color: yellow;
+    /*padding: 50px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-item{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(152, 152, 221);
+    border: 5px solid green;
+}
